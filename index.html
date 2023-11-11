@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ДЗ-8</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <p>На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию» и кнопкой «ОК»</p>
+        <input type="button" class="btn" id="popup-btn" value="ОК">
+    </div>
+</div>
+<div class="container">
+    <div class="logo">
+        <img src="images/homeWorks.png" alt="logo">
+    </div>
+    <div class="container-left">
+        <div class="order__form">
+            <h1>Get your free account</h1>
+            <p>Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.</p>
+
+            <div class="order__form_text removetext">Full Name</div>
+            <input type="text" class="order__input" id="names">
+
+            <div class="order__form_text">Your username</div>
+            <input type="text" class="order__input" id="username">
+
+            <div class="order__form_text removetext">E-mail</div>
+            <input type="email" class="order__input" id="user-email">
+
+            <div class="order__form_text">Password</div>
+            <input type="password" class="order__input" id="user-pass1">
+
+            <div class="order__form_text removetext">Repeat Password</div>
+            <input type="password" class="order__input" id="user-pass2">
+
+            <label><input type="checkbox" class="order__checkbox" id="checkbox" required>Agree to our Terms of
+                Service
+                and
+                Privacy Statement
+            </label>
+            <div class="order__button">
+                <input type="button" class="btn" id="btn" value="Sign Up">
+            </div>
+            <div class="order__a">
+                <a href="#">Already have an account?</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-right">
+        <div class="order__img">
+            <img src="images/roket.png" alt="ракета">
+        </div>
+    </div>
+</div>
+<script src="scripts/script.js"></script>
+</body>
+</html>

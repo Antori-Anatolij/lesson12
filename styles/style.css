@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url("../fonts/Nunitobold.woff");
+    src: url("../fonts/Nunitobold.woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+}
+
+.popup {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: none;
+}
+
+.popup .popup-content {
+    position: absolute;
+    width: 50%;
+    height: 200px;
+    top: calc(50% - 100px);
+    left: calc(50% / 2);
+    padding: 15px;
+    background-color: #ecebeb;
+    border-radius: 40px;
+    box-shadow: 0 0 50px #000;
+    text-align: center;
+    font-size: 40px;
+    color: #323232;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 27px;
+    position: absolute;
+}
+
+.container-left {
+    background: #fff;
+    width: 50%;
+}
+
+.container-right {
+    background: #F8F8FA;
+    width: 50%;
+}
+
+.order__form {
+    width: 452px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 41px;
+    margin-top: 194px;
+}
+
+.order__form h1 {
+    font-size: 36px;
+    line-height: 49px;
+    color: #000;
+    margin-bottom: 7px;
+}
+
+.order__form p {
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    width: 100%;
+    margin-bottom: 42px;
+}
+
+.order__form_text {
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+}
+
+.order__input {
+    height: 25px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    width: 100%;
+    margin-bottom: 20px;
+    border: transparent;
+    border-bottom: 1px solid #C6C6C4;
+    outline: none;
+}
+
+.order__input::placeholder {
+    font-size: 16px;
+    color: #C6C6C4;
+}
+
+.order__checkbox {
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.order__button {
+    text-align: center;
+    margin: 61px 0 44px 0;
+}
+
+.btn {
+    background: #DD3142;
+    border-radius: 40px;
+    border: transparent;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 21px 68px 25px 68px;
+    cursor: pointer;
+}
+
+.order__a {
+    text-align: center;
+    margin-bottom: 141px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
+.order__img {
+    margin-top: 254px;
+}
