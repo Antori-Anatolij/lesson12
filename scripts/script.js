@@ -63,6 +63,7 @@ window.onload = function () {
     }
 
     document.getElementsByClassName('order__a')[0].onclick = function () {
+        console.log("форма открыта");
         modalform();
     }
 
