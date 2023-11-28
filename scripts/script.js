@@ -94,5 +94,6 @@ window.onload = function () {
             alert("Добро пожаловать " + username.value);
         }
     }
+    console.log("Это сделано новым разработчиком в task13");
 }
 
