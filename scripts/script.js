@@ -95,5 +95,6 @@ window.onload = function () {
         }
     }
     console.log("Это сделано новым разработчиком в task13");
+    console.log("Это сделано в task12");
 }
 
